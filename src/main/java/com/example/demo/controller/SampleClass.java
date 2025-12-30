@@ -8,7 +8,7 @@ import java.time.Instant;
 @RestController
 public class SampleClass {
     @GetMapping("/hello-world")
-    public String helloWorld(){
+    public String helloWorldV1(){
         System.out.println("helloWorld method starts at "+ Instant.now());
         return "Hello World";
     }
